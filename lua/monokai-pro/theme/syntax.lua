@@ -8,7 +8,7 @@ M.setup = function(c, config, _)
     Comment = { fg = c.base.dimmed3, italic = styles.comment.italic }, -- Comments
     Constant = { fg = c.base.white }, -- (preferred) any constant
     String = { fg = c.base.green}, --   a string constant: "this is a string"
-    Character = { fg = c.base.magenta }, -- a character constant: 'c', '\n'
+    Character = { fg = c.base.white }, -- a character constant: 'c', '\n'
     Number = { fg = c.base.blue}, -- a number constant: 234, 0xff
     Boolean = { fg = c.base.blue}, -- a boolean constant: TRUE, false
     Float = { fg = c.base.blue }, -- a floating point constant: 2.3e10
